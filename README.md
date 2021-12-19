@@ -24,6 +24,7 @@
 class ETF(Enum) 
     KODEX_게임산업 = "300950" 
 ```
-ETF 파일을 열어서 ETF종목명을 아래에 넣고, ETF 코드를 입력
+ETF 파일을 열어서 ETF종목명을 아래에 넣고, ETF 코드를 입력   
+공백, & 기호가 들어가면 에러 발생-> _ 언더스코어로 변경해서 입력
 
 ETF 코드는 `https://finance.naver.com/api/sise/etfItemList.nhn?etfType=0&targetColumn=market_sum&sortOrder=desc` 여기에서 조회 가능
