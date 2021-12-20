@@ -1,3 +1,6 @@
+from enum import Enum
+
+
 class ETF(Enum):
     KODEX_게임산업 = "300950"
     KODEX_2차전지산업 = "305720"
